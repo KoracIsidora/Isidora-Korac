@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Delius Unicase", cursive;
+}
+
+.container {
+  background-image: linear-gradient(to right top, #e6c1fa, #cd81f6);
+}
+
+.wrapper {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 300px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  max-width: 130px;
+  margin-left: auto;
+}
+
+.heading {
+  margin: 0 auto;
+  font-size: 80px;
+  line-height: 100%;
+  text-align: center;
+  color: #b442f1;
+  text-transform: uppercase;
+}
