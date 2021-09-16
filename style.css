@@ -54,10 +54,14 @@ nav {
   background-color: #fff;
   padding-top: 150px;
   padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-heading {
-  margin: 0 auto 50px;
+  margin-bottom: 50px;
   max-width: 400px;
   text-align: center;
   font-size: 45px;
@@ -65,9 +69,16 @@ nav {
 }
 
 .main-text {
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 70px;
   max-width: 800px;
   text-align: center;
   font-size: 22px;
   color: #afcac2;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
