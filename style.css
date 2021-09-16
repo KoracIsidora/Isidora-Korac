@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-  /* background-image: linear-gradient(to right top, #e6c1fa, #cd81f6); */
   background-color: #e2ece9;
 }
 
@@ -41,15 +40,6 @@ nav {
   animation-name: slidein;
 }
 
-@keyframes slidein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .main {
   background-color: #fff;
   padding-top: 150px;
@@ -81,4 +71,14 @@ nav {
   width: 300px;
   height: 300px;
   margin: 0 auto;
+}
+
+/* Animations */
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
