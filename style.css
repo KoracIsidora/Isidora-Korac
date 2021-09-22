@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
 
 body {
@@ -11,6 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .bg-color {
@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-  padding-top: 250px;
+  padding-top: 350px;
   padding-bottom: 300px;
 }
 
@@ -26,14 +26,36 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 20px;
-  max-width: 130px;
-  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-left: auto;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background-color: #e2ece9;
+  width: 100%;
+  animation: slidein 2s;
+  box-shadow: 10px 0px 10px #49ae97;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: #49ae97;
+  font-size: 20px;
 }
 
 .heading {
@@ -105,6 +127,41 @@ a {
 
 .small {
   font-size: 30px;
+}
+
+.projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.url {
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #e2ece9;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+footer p.text {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: #49ae97;
+  font-weight: bold;
+}
+
+.footer-holder {
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 150px;
+  width: 100%;
+  margin-bottom: 70px;
 }
 
 /* Animations */

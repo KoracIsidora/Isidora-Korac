@@ -15,22 +15,20 @@
   <body>
     <section class="container bg-color">
       <nav>
-        <a
-          href="https://www.linkedin.com/in/isidora-korac-542522175/"
-          target="blank_"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto: dev.isidora@gmail.com">
-          <i class="fas fa-envelope"></i>
-        </a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tech">Technologies</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
-      <div class="container hero">
+      <div class="container hero" id="home">
         <h1 class="heading animate">I'm Isidora</h1>
         <p class="text animate">Web developer</p>
       </div>
     </section>
-    <main class="main container">
+    <main class="main container" id="about">
       <h2 class="heading main-heading">About me</h2>
       <p class="text main-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eius
@@ -47,7 +45,7 @@
         alt="portfolio-image"
       />
     </main>
-    <section class="main container bg-color">
+    <section class="main container bg-color" id="tech">
       <h2 class="heading main-heading">Technologies</h2>
       <div class="tech-items-holder">
         <div class="container">
@@ -65,5 +63,27 @@
       </div>
       <p class="text">jQuery, TypeScript, React JS, React Native, Git</p>
     </section>
+    <section class="projects container" id="projects">
+      <h2 class="heading main-heading">Projects</h2>
+      <a href="https://github.com/KoracIsidora" target="blank_" class="text url"
+        >Github</a
+      >
+      <p class="text">+ Many more to come</p>
+    </section>
+    <footer class="container" id="contact">
+      <p class="text">Contact me:</p>
+      <div class="container footer-holder">
+        <a
+          href="https://www.linkedin.com/in/isidora-korac-542522175/"
+          target="blank_"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto: dev.isidora@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <p class="footer-text">&copy Isidora Korac 2021</p>
+    </footer>
   </body>
 </html>
